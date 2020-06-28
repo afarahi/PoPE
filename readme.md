@@ -1,5 +1,10 @@
 ![GitHub](https://img.shields.io/github/license/afarahi/PoPE)
 
+<p align="center">
+  <img src="logo.png" width="300" title="logo">
+</p>
+
+
 # Introduction
 
 The spatial distribution and internal structure of astronomical systems contain vast amount of information about the

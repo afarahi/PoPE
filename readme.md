@@ -28,22 +28,20 @@ The method consists of two steps: (1) reconstructing the average profile using n
 Processes and (2) estimating the the property profiles covariance given a set of independent variable. Our 
 population-based method is computationally efficient and capable of inferring average profiles of a population from 
 noisy measurements, without stacking and binning nor parameterizing the shape of the average profile. This code is an 
-implementation of Population Profile Estimator (`PoPE`) method that performs a localized Linear regression
- described in Farahi et al. (2020). 
+implementation of Population Profile Estimator (`PoPE`) method that performs a regression analysis described in 
+Farahi, Nagai & Cheng (2020). 
 
-If you use `PoPE` or derivates based on it, please cite the following papers which introduced the tool:
-
-[TBD](TBD)
+If you use PoPE or derivates based on it, please cite the following paper (Farahi et al. 2020) 
+which introduced the tool.
 
 ## Dependencies
 
-`numpy`, `scipy`,  `matplotlib`, `pandas`, `sklearn`, `pymc3`, ``.
+`numpy`, `scipy`,  `matplotlib`, `pandas`, `sklearn`, `pymc3`, `KLLR`.
 
 ## References
 
-[1]. A. Farahi, et al. "PoPE: A population-based approach to model spatial structure of astronomical systems." ApJ (submitted).
-
-
+[1]. A. Farahi, D. Nagai, Y. Cheng, "PoPE: A population-based approach to model spatial structure of astronomical 
+systems", ApJ, submitted (LINK TO ASTRO-PH).
 
 ## Acknowledgment
 
@@ -67,3 +65,8 @@ An example for using KLLR looks like this:
 
 See examples "./examples/simulated_example.py" and "./examples/TNG_example.py" for more information. To replicate 
 plots presented in the paper, you can run `python3 TNG_profile_example.py` and `python3 fake_simulated_example.py` 
+
+## Contact
+
+If you have any questions or want to modify the code for your own purpose, please do not hesitate to 
+email aryaf@umich.edu for help.

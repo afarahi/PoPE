@@ -55,16 +55,16 @@ systems", ApJ, submitted (LINK TO ASTRO-PH).
 
 To start using `PoPE`, simply use `from PoPE import estimate_mean_property_profile` to
 access the primary functions and class. The exact requirements for the inputs are
-listed in the docstring of the kllr_model() class further below.
-An example for using KLLR looks like this:
+listed in the docstring of the estimate_mean_property_profile() class further below.
+An example for using `PoPE` looks like this:
                                                                         
         from PoPE import estimate_mean_property_profile                                       
                                                                           
         # load data and add measurement noise
-        Xs, Ys1, Ys2, Yobs1, Yobs2, Ys1err, Ys2err = load_data(n=1, min_SNR=1.0, max_SNR=5.0)
+        # Xs, Ys1, Ys2, Ys1err, Ys2err = load_data()
 
         # compute the average profile
-        mp, gp, model = estimate_mean_property_profile(Xs.T, Yobs1, Yobs2, Ys1err, Ys2err, verbose=False,
+        mp, gp, model = estimate_mean_property_profile(Xs, Ys1, Ys2, Ys1err, Ys2err,
                                                        Xu_shapes=[15, 7], kernel_scales=[2.0, 2.0])                                 
                                                                           
 

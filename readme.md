@@ -36,7 +36,7 @@ noisy measurements, without stacking and binning nor parameterizing the shape of
 implementation of Population Profile Estimator (`PoPE`) method that performs a regression analysis described in 
 Farahi, Nagai & Cheng (2020). 
 
-If you use PoPE or derivates based on it, please cite the following paper (Farahi et al. 2020) 
+If you use PoPE or derivates based on it, please cite the following paper ([Farahi et al. 2020](https://arxiv.org/abs/2006.16408)) 
 which introduced the tool.
 
 ## Dependencies
@@ -46,7 +46,7 @@ which introduced the tool.
 ## References
 
 [1]. A. Farahi, D. Nagai, Y. Cheng, "PoPE: A population-based approach to model spatial structure of astronomical 
-systems", ApJ, submitted (LINK TO ASTRO-PH).
+systems", ApJ, submitted ([link](https://arxiv.org/abs/2006.16408)).
 
 ## Acknowledgment
 

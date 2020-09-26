@@ -168,7 +168,7 @@ def estimate_property_covariance(gp, mp, Xs, Ys1, Ys2, Ys1err, Ys2err,
 
     check_attributes(Xs, Ys1, Ys2, Ys1err, Ys2err)
 
-    if nu > 0:
+    if nu < 0:
         raise ValueError("nu must be larger than zero (a value between 1 and 5 is recommended) , nu = %0.2f."%nu)
 
     # data size

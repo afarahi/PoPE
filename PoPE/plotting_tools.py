@@ -41,10 +41,10 @@ def plot_mean_profile_fit(X_new, mp, gp, x2_dim_len = 1, ax = None, color = ['in
         Index of the independent variable used for plotting (xaxis)
 
     show_confidence_intervals : bool
-      True,
+        True,
 
     label :
-    if None do nothing.
+        if None do nothing.
 
     model : pymc3 Model instance
         if provided sample from the model if None use an analytical form. Analytical form is preferred.

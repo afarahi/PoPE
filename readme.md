@@ -74,4 +74,4 @@ plots presented in the paper, you can run `python3 TNG_profile_example.py` and `
 ## Contact
 
 If you have any questions or want to modify the code for your own purpose, please do not hesitate to 
-email aryaf@umich.edu for help.
+email arya.farahi@austin.utexas.edu for help.

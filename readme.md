@@ -1,4 +1,8 @@
 ![GitHub](https://img.shields.io/github/license/afarahi/PoPE)
+![PyPI](https://img.shields.io/pypi/v/tatter)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tatter)
+<a href="http://ascl.net/2007.006"><img src="https://img.shields.io/badge/ascl-2007.006-blue.svg?colorB=262255" alt="ascl:2007.006" /></a>
+
 
 <p align="center">
   <img src="logo.png" width="300" title="logo">

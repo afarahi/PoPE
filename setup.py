@@ -34,7 +34,7 @@ with open(os.path.join(dir_path, 'readme.md')) as f:
 
 kwargs = {
     'name': 'PoPE',
-    'version': '1.0.2',
+    'version': '1.0.3',
     'author': 'Arya Farahi',
     'author_email': 'arya.farahi@austin.utexas.edu',
     'packages': ['PoPE'],

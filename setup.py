@@ -48,7 +48,7 @@ kwargs = {
     'install_requires': ['numpy', 'scipy', 'matplotlib', 'pandas', 'sklearn', 'theano', 'pymc3', 'KLLR'],
     'packages': find_packages(),
     'test_suite': 'tests',
-    'python_modules': 'tatter',
+    'python_modules': 'pope',
     'setup_requires': ['pytest-runner'],
     'tests_require': ['pytest'],
     'classifiers': classifiers,

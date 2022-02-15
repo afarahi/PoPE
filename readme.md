@@ -48,8 +48,11 @@ which introduced the tool.
 [1]. A. Farahi, D. Nagai, Y. Cheng, "PoPE: A population-based approach to model spatial structure of astronomical 
 systems", AJ 161 30 (2021). [arXiv link](https://arxiv.org/abs/2006.16408). [Journal link](https://iopscience.iop.org/article/10.3847/1538-3881/abc630/pdf).
 
-## Acknowledgment
+## Installation
 
+Run the following to install:
+  
+    pip install pope
 
 ## Quickstart
 

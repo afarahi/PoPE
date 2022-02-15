@@ -45,7 +45,7 @@ kwargs = {
     'url':'https://github.com/afarahi/PoPE',
     'license': 'MIT',
     'keywords': ['linear', 'regression', 'astronomy', 'astrophysics', 'parameter estimation'],
-    'install_requires': ['numpy', 'scipy', 'matplotlib', 'pandas', 'sklearn', 'theano', 'pymc3', 'KLLR'],
+    'install_requires': ['numpy', 'scipy', 'matplotlib', 'pandas', 'sklearn', 'theano', 'pymc3'],
     'packages': find_packages(),
     'test_suite': 'tests',
     'python_modules': 'pope',

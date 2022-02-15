@@ -16,8 +16,11 @@ except ImportError:
     HAVE_NUMPY = False
 
 classifiers = [
-    'Programming Language :: Python :: 2',
     'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
     'Intended Audience :: Science/Research',
     'License :: OSI Approved :: MIT License',
     'Topic :: Scientific/Engineering',
@@ -32,8 +35,8 @@ with open(os.path.join(dir_path, 'readme.md')) as f:
 kwargs = {
     'name': 'PoPE',
     'version': '1.0.2',
-    'author': 'Arya Farahi, Daisuke Nagai, Yang Chen',
-    'author_email': 'aryaf@umich.edu',
+    'author': 'Arya Farahi',
+    'author_email': 'arya.farahi@austin.utexas.edu',
     'packages': ['PoPE'],
     'url': 'https://github.com/afarahi/PoPE',
     'description': 'Population Profile Estimator.',
@@ -45,15 +48,16 @@ kwargs = {
     'install_requires': ['numpy', 'scipy', 'matplotlib', 'pandas', 'sklearn', 'theano', 'pymc3', 'KLLR'],
     'packages': find_packages(),
     'test_suite': 'tests',
+    'python_modules': 'tatter',
     'setup_requires': ['pytest-runner'],
     'tests_require': ['pytest'],
-    'classifiers': classifiers
+    'classifiers': classifiers,
+    'package_dir': {'':'.'}
 }
 
 try:
     setup(**kwargs)
 except SystemExit:
-    del kwargs['ext_modules']
     reason = 'numpy missing, ' if not HAVE_NUMPY else ''
     warnings.warn(reason+'compilation failed. Installing pure python package')
     setup(**kwargs)
